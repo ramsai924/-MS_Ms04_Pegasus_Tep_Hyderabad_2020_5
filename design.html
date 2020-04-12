@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #card{
+            width: 200px;
+            height: 300px;
+            background-color: azure;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 2s;
+            animation: fade 2s linear;
+            position: relative;
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+          
+        }
+        .para{
+            position: absolute;
+            top: -20px;
+        }
+        #redHeart{
+            position: absolute;
+            left: 6px;
+            top: 50px;
+        }
+        #mid{
+            position: absolute;
+            left: 30%;
+            top: 35%;
+        }
+        #right{
+            position: absolute;
+            right: 6px;
+            top: 93%;
+            transform: rotate(180deg);
+        }
+        /* @keyframes fade{
+            0%{transform: rotateZ(0deg);}
+            100%{transform: rotateZ(180deg);}
+        } */
+
+    </style>
+</head>
+<body>
+  
+        <div id="card">
+            <div id="left" style="padding: 10px;">
+                <p class="para">2</p>
+                <img id="redHeart" src="images/heartred.png" alt="" width="25px" height="25px">
+            </div>
+
+            <img id="mid" src="images/heartred.png" alt="middle" width="80px" height="80px">
+
+            <div id="right" style="padding: 10px;">
+                <p class="para">2</p>
+                <img id="redHeart" src="images/heartred.png" alt="" width="25px" height="25px">
+            </div>
+        </div>
+
+       
+
+    
+   </script>
+</body>
+</html>
