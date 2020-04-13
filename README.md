@@ -25,5 +25,5 @@
 
 - Any hand with an Ace valued as 11 is called a ‘soft’ hand. All other hands are ‘hard’ hands.
 
-- A starting hand of a 10 valued card and an Ace is called a Blackjack or natural and beats all hands other than another Blackjack. If both the player and dealer have Blackjack, the result is a push (tie): neither the player nor the bank wins and the bet is returned to the player.
+- A starting hand of a 10 valued card and, an Ace is called a Blackjack or natural and beats all hands other than another Blackjack. If both the player and dealer have Blackjack, the result is a push (tie): neither the player nor the bank wins and the bet is returned to the player.
 
